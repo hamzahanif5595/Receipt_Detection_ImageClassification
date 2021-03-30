@@ -1,0 +1,344 @@
+{
+	"id": "56599e0c-afa0-494c-d2fd-021f17c24442",
+	"name": "Tango ML",
+	"description": "",
+	"order": [
+		"03018a6d-85cd-55f8-74a2-b42888038b85",
+		"f522e9ff-5700-94ee-cf86-3f2d3f6336b7",
+		"5291f1f6-ffc7-a14d-3834-6e3fe5e66ad4",
+		"1bf6b0b8-98df-e659-e24e-c2183d43ea0e",
+		"d81d3989-d78c-078d-905f-a91f6fff413b"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1598948547212,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "03018a6d-85cd-55f8-74a2-b42888038b85",
+			"headers": "",
+			"headerData": [],
+			"url": "0.0.0.0:3007/extraction/bills",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "page_1",
+					"value": "g-1.jpg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "page_2",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "page_3",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "page_4",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "page_5",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "pdf_file",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1612878127588,
+			"name": "parse_bills",
+			"description": "",
+			"collectionId": "56599e0c-afa0-494c-d2fd-021f17c24442",
+			"responses": []
+		},
+		{
+			"id": "1bf6b0b8-98df-e659-e24e-c2183d43ea0e",
+			"headers": "",
+			"headerData": [],
+			"url": "34.70.24.203:3007/extraction/medicare",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "page_1",
+					"value": "medicare.jpg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "page_2",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "page_3",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "page_4",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "page_5",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "pdf_file",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1610524270092,
+			"name": "parse_medicare",
+			"description": "",
+			"collectionId": "56599e0c-afa0-494c-d2fd-021f17c24442",
+			"responses": []
+		},
+		{
+			"id": "5291f1f6-ffc7-a14d-3834-6e3fe5e66ad4",
+			"headers": "",
+			"headerData": [],
+			"url": "34.70.24.203.:3007/extraction/creditcard",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "page_1",
+					"value": "creditcard.jpg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "page_2",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "page_3",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "page_4",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "page_5",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "pdf_file",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1610535854169,
+			"name": "parse_credit_cards",
+			"description": "",
+			"collectionId": "56599e0c-afa0-494c-d2fd-021f17c24442",
+			"responses": []
+		},
+		{
+			"id": "d81d3989-d78c-078d-905f-a91f6fff413b",
+			"headers": "",
+			"headerData": [],
+			"url": "34.70.24.203:3007/extraction/license",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "page_1",
+					"value": "CD9C3460-FFDA-41AB-80B5-B4DE185D1E09.jpeg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "page_2",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "page_3",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "page_4",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "page_5",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "pdf_file",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1610524306883,
+			"name": "parse_license",
+			"description": "",
+			"collectionId": "56599e0c-afa0-494c-d2fd-021f17c24442",
+			"responses": []
+		},
+		{
+			"id": "f522e9ff-5700-94ee-cf86-3f2d3f6336b7",
+			"headers": "",
+			"headerData": [],
+			"url": "0.0.0.0:3007/extraction/passports",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "page_1",
+					"value": "p7.jpg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "page_2",
+					"value": "6.jpg",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "page_3",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "page_4",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "page_5",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				},
+				{
+					"key": "pdf_file",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1613552512467,
+			"name": "parse_passports",
+			"description": "",
+			"collectionId": "56599e0c-afa0-494c-d2fd-021f17c24442",
+			"responses": []
+		}
+	]
+}

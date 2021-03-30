@@ -1,0 +1,10 @@
+requests==2.18.4
+Flask_Cors==3.0.7
+numpy==1.14.5
+Flask==1.1.2
+regex==2020.10.15
+matplotlib==3.2.1
+Image==1.5.33
+Pillow==8.1.0
+gunicorn==20.0.4
+fuzzywuzzy==0.18.0
