@@ -1,13 +1,13 @@
-requests==2.18.4
+requests
 matplotlib==3.2.1
 Keras==2.3.1
 Flask_Cors==3.0.7
 Flask==1.1.2
 opencv_contrib_python==4.5.1.48
 seaborn==0.10.1
-tensorflow==2.4.1
-numpy==1.13.3
+tensorflow
+numpy
 Image==1.5.33
 Pillow==8.1.2
-scikit_learn==0.24.1
+scikit_learn
 gunicorn==20.0.4
